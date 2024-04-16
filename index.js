@@ -14,6 +14,7 @@ bot.on("spawn", () => {
     bot.setControlState("forward", true);
     setTimeout(() => {
       bot.setControlState("forward", false);
+      bot.chat('/tpa oldmarius')
     }, 500);
   }, 2000);
 });
